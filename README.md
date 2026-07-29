@@ -37,7 +37,6 @@
 jwgl-autofill-fixer/
 ├── manifest.json   # 扩展清单（Manifest V3）
 ├── content.js      # 核心修复脚本
-├── icon.png        # 扩展图标
 └── README.md       # 本文件
 ```
 
