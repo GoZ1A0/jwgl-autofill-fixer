@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "教务系统密码自动填充修复",
+  "version": "1.0",
+  "description": "修复正方教务管理系统登录页自动填充密码失效的问题",
+  "permissions": [],
+  "host_permissions": [
+    "https://jwglxxfwpt.hebeu.edu.cn/xtgl/login_slogin.html"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://jwglxxfwpt.hebeu.edu.cn/xtgl/login_slogin.html"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
